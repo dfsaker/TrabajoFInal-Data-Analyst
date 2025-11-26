@@ -1,34 +1,39 @@
 import pandas as pd
 
 dataframe=pd.read_csv("employee_corregido.csv")
-#Análisis exploratorio con Python:
 
 
 
-#Calcular promedios de productividad por departamento.
+# ANALISIS EXPLORATORIO CON PYTHON
 
-print(dataframe['Department']=='Finance')
 
-#dataframe['Department']=='Finance'
+
+#CALCULAR PROMEDIOS DE PRODUCTIVIDAD POR DEPARTAMENTO
+
+
 
 print(dataframe['ProductivityIndex'].max())
 
-print('Promedio de productividad por departamento')
+print('PROMEDIOS DE PRODUCTIVIDAD POR DEPARTAMENTO')
 
 print(dataframe.groupby("Department")["ProductivityIndex"].mean())
 
-#Comparar rendimiento entre trabajadores remotos y presenciales.
+"-------------------------------------------------------------------------------------------------"
 
-print('Rendimiento entre trabajadores remotos y presenciales')
+# COMPARAR RENDIMIENTO ENTRE TRABAJADORES REMOTOS Y PRESENCIALES 
+
+print('RENDIMIENTO ENTRE TRABAJADORES REMOTOS Y PRESENCIALES')
 
 print(dataframe.groupby("RemoteWork")["ProductivityIndex"].mean())
 
-#Ver relación entre ausencias y rendimiento.
 
-print('Relacion entre ausencias y rendimientos')
+"--------------------------------------------------------------------------------------------"
+
+#VER RELACION ENTRE AUSENCIAS Y RENDIMIENTOS
+
+print('RELACION ENTRE AUSENCIAS Y RENDIMIENTOS')
 
 print(dataframe.groupby("Absences")["ProductivityIndex"].mean())
 
 print(dataframe['Absences'].value_counts()) 
 
-print((dataframe['Absences']==7).value_counts())
