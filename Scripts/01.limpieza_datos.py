@@ -21,3 +21,5 @@ dataframe['ProductivityIndex'] = (dataframe['PerformanceScore'] + dataframe['Sat
 
 
 print(dataframe)
+
+dataframe.to_csv("employee_corregido.csv")

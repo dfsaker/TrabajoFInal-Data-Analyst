@@ -1,6 +1,6 @@
 import pandas as pd
 
-dataframe=pd.read_csv("employee_nuevo.csv")
+dataframe=pd.read_csv("employee_corregido.csv")
 #Análisis exploratorio con Python:
 
 
