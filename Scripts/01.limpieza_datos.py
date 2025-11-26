@@ -4,18 +4,17 @@ dataframe=pd.read_csv("employee_nuevo.csv")
 
 print(dataframe)
 
-#Limpieza de datos:
+# ----------------------LIMPIEZA DE DATOS ------------------------------
 
-#Identificar y reemplazar valores faltantes en Satisfaction o PerformanceScore.
-
-
+#IDENTIFICAR Y REEMPLAZAR VALORES FALTANTES EN SATISFACTION O PERFOMANCESCORE
 
 print(dataframe.isnull().sum())
 
 
-#Estandarizar variables categóricas (por ejemplo, “Yes/No”).
+#ESTANDARIZAR VARIABLES CATEGORICAS YES/NO. 
 
-#Crear una nueva columna ProductivityIndex = (PerformanceScore + Satisfaction*10) / HoursPerWeek.
+
+#PRODUCTIVITYINDEX = (PERFORMANCESCORE + SATISFACTION * 10) / HOURSPERWEEK
 
 dataframe['ProductivityIndex'] = (dataframe['PerformanceScore'] + dataframe['Satisfaction']*10)/ dataframe['HoursPerWeek']
 

@@ -4,7 +4,7 @@ dataframe=pd.read_csv("employee_corregido.csv")
 
 
 
-# ANALISIS EXPLORATORIO CON PYTHON
+# ---------------ANALISIS EXPLORATORIO CON PYTHON--------------------------------
 
 
 
@@ -36,4 +36,15 @@ print('RELACION ENTRE AUSENCIAS Y RENDIMIENTOS')
 print(dataframe.groupby("Absences")["ProductivityIndex"].mean())
 
 print(dataframe['Absences'].value_counts()) 
+
+
+#-------------------------------- "PRODUCTIVIDAD GENERAL"-----------------------------
+
+
+
+Productividad_General=dataframe["ProductivityIndex"].mean()
+
+
+print(f"EL ÍNDICE DE PRODUCTIVIDAD PROMEDIO GENERAL DE LA EMPRESA ES: {Productividad_General:.3f}")
+
 
