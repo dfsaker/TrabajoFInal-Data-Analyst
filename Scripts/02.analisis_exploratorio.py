@@ -66,4 +66,3 @@ print("--- EMPLEADO CON LA MAYOR PRODUCTIVIDAD ---")
 
 print(empleado_mas_productivo[['EmployeeID', 'Department', 'HoursPerWeek', 'PerformanceScore', 'Satisfaction', 'ProductivityIndex']])
 
-print(dataframe)
