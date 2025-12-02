@@ -14,6 +14,7 @@ print(dataframe.isnull().sum())
 #ESTANDARIZAR VARIABLES CATEGORICAS YES/NO. 
 
 
+
 #PRODUCTIVITYINDEX = (PERFORMANCESCORE + SATISFACTION * 10) / HOURSPERWEEK
 
 dataframe['ProductivityIndex'] = (dataframe['PerformanceScore'] + dataframe['Satisfaction']*10)/ dataframe['HoursPerWeek']
