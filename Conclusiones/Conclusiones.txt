@@ -1,0 +1,27 @@
+Conclusiones del Análisis de Productividad y Trabajo Remoto
+1. Resumen Ejecutivo (Productividad General)
+El índice de productividad promedio general de la empresa es 3.265
+El empleado con la mayor productividad identificada es E0363 del departamento de IT, con un índice de 6.033333 , resultado de un puntaje de rendimiento de 91, una satisfacción de 9, y 30 horas a la semana
+
+2. Análisis de Preguntas Clave 
+A. ¿El trabajo remoto mejora o reduce el rendimiento? 
+El trabajo remoto no afecta significativamente a la productividad6.
+* El rendimiento promedio de los trabajadores presenciales (No Remoto) es de 3.233669
+* El rendimiento promedio de los trabajadores remotos (Sí Remoto) es de 3.284819
+* La diferencia entre ambos promedios es de solo un 1.58%, una variación que se considera relativamente pequeña
+* Conclusión: Se puede inferir que la modalidad de trabajo (remoto o presencial) no es el factor determinante en la productividad, sugiriendo que otros factores (como la satisfacción o las ausencias) tienen mayor peso.
+B. ¿Qué departamentos presentan mayores oportunidades de mejora? 
+Las mayores oportunidades de mejora se encuentran en los departamentos con el menor índice de productividad promedio.
+* El departamento de Sales tiene el índice promedio más bajo: 3.17744111.
+* El departamento de Operations presenta el segundo índice más bajo: 3.22015912.
+Los departamentos con mayor productividad son:
+* Marketing: 3.322139 
+* Support: 3.300560 
+Departamento Productividad Promedio Sales3.177441Operations3.220159IT3.275033Finance3.280549HR3.293303Support3.300560Marketing3.322139
+3. Hallazgos Adicionales del Análisis
+Relación entre Ausencias y Rendimiento 
+El análisis muestra una correlación interesante (aunque no lineal) entre el número de ausencias y el rendimiento:
+* El mayor rendimiento promedio (3.613986) corresponde a los empleados con 1 ausencia
+* El rendimiento parece caer a medida que las ausencias aumentan hasta el nivel de 5 ausencias (3.118840)
+* El rendimiento de los empleados sin ausencias (3.322539) es superior al promedio general.
+Ausencias Productividad Promedio 13.61398623.41051503.32253963.24447883.24378733.21358643.20293793.19708073.15144953.118840
