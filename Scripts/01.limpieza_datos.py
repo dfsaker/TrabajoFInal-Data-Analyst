@@ -13,6 +13,7 @@ print(dataframe.isnull().sum())
 
 #ESTANDARIZAR VARIABLES CATEGORICAS YES/NO. 
 
+dataframe['RemoteWork'] = dataframe['RemoteWork'].map({1: 'Yes', 0: 'No'})
 
 
 #PRODUCTIVITYINDEX = (PERFORMANCESCORE + SATISFACTION * 10) / HOURSPERWEEK
