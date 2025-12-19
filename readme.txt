@@ -1,37 +1,45 @@
-Consigna
+Assignment
+Objective: Analyze the impact of remote work and job satisfaction on overall productivity.
 
-Objetivo: Analizar el impacto del trabajo remoto y la satisfacción laboral en la productividad.
+Data Cleaning
 
-Limpieza de datos:
+Handle Missing Values: Identify and replace null or missing values in the Satisfaction or PerformanceScore columns.
+Standardize Categorical Variables: Ensure consistency in categories (e.g., converting various formats into a standard "Yes/No").
 
-Identificar y reemplazar valores faltantes en Satisfaction o PerformanceScore.
+Feature Engineering: Create a new column named ProductivityIndex using the following formula: ProductivityIndex = {PerformanceScore + (Satisfaction *10) \{HoursPerWeek}
 
-Estandarizar variables categóricas (por ejemplo, “Yes/No”).
+Exploratory Data Analysis (EDA) with Python
 
-Crear una nueva columna ProductivityIndex = (PerformanceScore + Satisfaction*10) / HoursPerWeek.
+Calculate the average productivity levels for each department.
+Compare the performance levels between remote workers and on-site (in-person) workers
+Analyze the correlation/relationship between absences and performance scores.
 
-Análisis exploratorio con Python:
 
-Calcular promedios de productividad por departamento.
+Data Visualization
 
-Comparar rendimiento entre trabajadores remotos y presenciales.
+Using the seaborn library (sns), generate the following charts:
 
-Ver relación entre ausencias y rendimiento.
+sns.violinplot(): To compare productivity distribution across different work types (Remote vs. On-site).
 
-Visualización:
+sns.barplot(): To display the average productivity per department.
 
-sns.violinplot() comparando productividad por tipo de trabajo.
+sns.scatterplot(): To visualize the relationship between satisfaction levels and performance.
 
-sns.barplot() de productividad promedio por departamento.
 
-sns.scatterplot() entre satisfacción y performance.
+Power BI Dashboard
 
-Power BI:
+Create a dashboard featuring the following Key Performance Indicators (KPIs):
 
-Dashboard con KPI: Productividad general, % de trabajo remoto, correlación satisfacción-productividad.
+Overall Productivity.
 
-Conclusiones:
+Percentage (%) of Remote Work.
 
-¿El trabajo remoto mejora o reduce el rendimiento?
+Correlation between Satisfaction and Productivity.
 
-¿Qué departamentos presentan mayores oportunidades de mejora?
+Conclusions
+
+Provide a final assessment based on your findings:
+
+Does remote work improve or reduce employee performance?
+
+Which departments present the most significant opportunities for improvement?
